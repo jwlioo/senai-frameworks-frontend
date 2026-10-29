@@ -1,0 +1,16 @@
+:root { --fundo: #f4f7fb; --texto: #15233d; --primaria: #2855c7; --borda: #d9e2f0; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: var(--fundo); color: var(--texto); font-family: Arial, sans-serif; }
+.cabecalho { padding: 48px 24px; text-align: center; color: white; background: linear-gradient(120deg, #183b8c, #4a70df); }
+.cabecalho h1 { max-width: 680px; margin: 8px auto; font-size: clamp(2rem, 5vw, 3.5rem); }
+.cabecalho p { margin: 0 auto; max-width: 620px; line-height: 1.5; }
+.eyebrow { color: #d9e4ff; font-weight: bold; letter-spacing: .12em; text-transform: uppercase; }
+.conteudo { max-width: 1180px; margin: 0 auto; padding: 32px 20px 48px; }
+.galeria { display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 18px; }
+.cartao { display: flex; flex: 1 1 210px; min-height: 190px; padding: 22px; border: 1px solid var(--borda); border-radius: 16px; background: white; box-shadow: 0 8px 22px rgb(21 35 61 / 8%); flex-direction: column; justify-content: space-between; transition: transform .2s ease; }
+.cartao:hover { transform: translateY(-5px); border-color: var(--primaria); }
+.cartao span { align-self: flex-start; padding: 7px 10px; border-radius: 999px; background: #e8efff; color: var(--primaria); font-weight: bold; }
+.cartao h2 { margin: 20px 0 8px; font-size: 1.25rem; }
+.cartao p { margin: 0; color: #53627d; line-height: 1.5; }
+.destaque { border: 3px solid var(--primaria); }
+@media (max-width: 600px) { .cabecalho { padding: 36px 20px; } .conteudo { padding: 22px 16px; } .cartao { flex-basis: 100%; min-height: 160px; } }
