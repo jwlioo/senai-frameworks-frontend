@@ -174,9 +174,9 @@ A disciplina combina teoria e prática por meio de:
 | 03 | Introdução ao JavaScript |
 | 04 | Frameworks CSS |
 | 05 | Versionamento com Git e GitHub |
-| 06 | Introdução aos Frameworks Front-end |
-| 07 | Estrutura de Projetos |
-| 08 | Componentização |
+| 06 | Projetos Front-End - planejamento, backlog e Definition of Done |
+| 07 | Frameworks CSS - práticas de Flexbox e Tailwind CSS |
+| 08 | Projeto React - catálogo com componentes, props e listas |
 | 09 | Propriedades (Props) |
 | 10 | Estado da Aplicação |
 | 11 | Rotas |
