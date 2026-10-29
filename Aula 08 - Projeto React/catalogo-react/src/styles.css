@@ -1,0 +1,26 @@
+:root { font-family: Inter, Arial, sans-serif; color: #17223b; background: #f2f5fa; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input { font: inherit; }
+.pagina { min-height: 100vh; display: flex; flex-direction: column; }
+.cabecalho { display: flex; gap: 24px; align-items: end; justify-content: space-between; padding: 54px max(24px, calc((100% - 1100px) / 2)); color: white; background: linear-gradient(120deg, #172c72, #4e46b7); }
+.rotulo { margin: 0; color: #b5ceff; font-size: .82rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+h1 { margin: 10px 0; font-size: clamp(2.2rem, 5vw, 4rem); letter-spacing: -.05em; }
+.cabecalho p:not(.rotulo) { max-width: 620px; margin: 0; font-size: 1.1rem; line-height: 1.55; color: #e4eaff; }
+main { width: min(1100px, calc(100% - 40px)); margin: 34px auto 54px; flex: 1; }
+.busca { display: grid; gap: 9px; color: #314260; font-weight: 700; }
+.busca input { width: 100%; padding: 14px 16px; border: 1px solid #b9c7dc; border-radius: 10px; outline-color: #4e46b7; background: white; color: #17223b; }
+.resultado { margin: 26px 0 16px; color: #5c6b86; }
+.grade { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); }
+.card { display: flex; min-height: 270px; flex-direction: column; padding: 22px; border: 1px solid #d6dfed; border-radius: 16px; background: white; box-shadow: 0 10px 28px rgb(26 42 74 / 8%); }
+.card-topo { display: flex; justify-content: space-between; gap: 12px; color: #455b81; font-size: .78rem; }
+.card-topo span, .card-topo strong { padding: 6px 9px; border-radius: 999px; background: #edf1fa; }
+.card h2 { margin: 26px 0 10px; font-size: 1.35rem; }
+.card p { flex: 1; margin: 0 0 22px; color: #596985; line-height: 1.55; }
+.botao { padding: 11px 14px; border: 0; border-radius: 9px; cursor: pointer; color: white; background: #384ac1; font-weight: 800; transition: transform .15s ease, background .15s ease; }
+.botao:hover { transform: translateY(-2px); background: #293ca8; }
+.secundario { white-space: nowrap; background: white; color: #263a91; }
+.secundario:hover { background: #e8edff; }
+.vazio { padding: 36px; border: 1px dashed #9baaca; border-radius: 14px; text-align: center; color: #596985; }
+footer { padding: 24px; text-align: center; color: #61708b; background: #e7ecf5; font-size: .92rem; }
+@media (max-width: 650px) { .cabecalho { align-items: stretch; flex-direction: column; padding: 38px 20px; } main { width: min(100% - 32px, 1100px); margin-top: 24px; } .secundario { width: 100%; } }
