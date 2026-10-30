@@ -6,6 +6,24 @@ O objetivo é documentar minha evolução ao longo do semestre, centralizando os
 
 ---
 
+## 📌 Entregas e acessos rápidos
+
+| Entrega | Repositório / código | Aplicação online | Situação |
+| --- | --- | --- | --- |
+| Projeto Vue.js | [Código](https://github.com/jwlioo/projeto_vue) | [Abrir](https://projetovue-rho.vercel.app/) | ✅ Online |
+| API de status, data e hora | [Código](https://github.com/jwlioo/express-backend) | [Abrir](https://express-backend-lueb.onrender.com/) | ✅ Online |
+| Front-end React + API de status | [Código](https://github.com/jwlioo/Frontend-Express) | [Abrir](https://frontend-api-cyan.vercel.app/) | ✅ Online |
+| Aula 05 - Front-end CRUD | [Código](https://github.com/jwlioo/Express-frontend-aula05) | [Abrir](https://express-aula05-backend.vercel.app/) | ✅ Online |
+| Aula 05 - Back-end CRUD | [Código](https://github.com/jwlioo/Express-backend-aula05) | — | ⚠️ Deploy precisa ser refeito |
+| Aula 06 - Gestão de projeto | [Documentação](./Aula%2006%20-%20Projetos%20Front-End/README.md) | Não se aplica | ✅ Entregue |
+| Aula 07 - CSS e Flexbox | [Código](./Aula%2007%20-%20Frameworks%20CSS/Atividade%2001%20-%20CSS%20e%20Flexbox/index.html) | — | ⏳ Falta publicar |
+| Aula 07 - Tailwind CSS | [Código](./Aula%2007%20-%20Frameworks%20CSS/Atividade%2002%20-%20Tailwind%20CSS/index.html) | — | ⏳ Falta publicar |
+| Aula 08 - Catálogo React | [Código e instruções](./Aula%2008%20-%20Projeto%20React/catalogo-react/README.md) | — | ⏳ Falta publicar |
+
+O acompanhamento completo, incluindo pendências e próximos passos, está em [RELATORIO_DE_ENTREGAS.md](./RELATORIO_DE_ENTREGAS.md).
+
+---
+
 # 🎯 Objetivo da Disciplina
 
 A disciplina tem como objetivo desenvolver competências para a criação de aplicações web modernas, utilizando tecnologias e frameworks Front-end amplamente adotados pelo mercado.
@@ -189,6 +207,22 @@ A disciplina combina teoria e prática por meio de:
 | 18 | Encerramento |
 
 > *O cronograma poderá sofrer alterações conforme o andamento da disciplina.*
+
+---
+
+## ▶️ Como executar as atividades recentes
+
+As atividades de CSS da Aula 07 podem ser abertas diretamente pelo navegador usando seus arquivos `index.html`.
+
+Para o projeto React da Aula 08:
+
+```bash
+cd "Aula 08 - Projeto React/catalogo-react"
+npm install
+npm run dev
+```
+
+Para validar a versão de produção, execute `npm run build` no mesmo diretório.
 
 ---
 

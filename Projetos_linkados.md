@@ -50,11 +50,11 @@ Projeto **Front-end desenvolvido com React + Vite**.
 
 Este projeto foi criado especificamente para **consumir a API Express de Status, Data e Hora apresentada no projeto anterior**.
 
-### 🔗 Repositório
+### 🔗 Links
 
-| GitHub                                                               |
-| -------------------------------------------------------------------- |
-| 💻 [Acessar Repositório](https://github.com/jwlioo/Frontend-Express) |
+| Repositório | Projeto Online |
+| --- | --- |
+| 💻 [Acessar Repositório](https://github.com/jwlioo/Frontend-Express) | 🌐 [Acessar Front-end](https://frontend-api-cyan.vercel.app/) |
 
 ### 🔄 Comunicação com a API
 
